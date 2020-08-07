@@ -6,10 +6,10 @@
  header h1 {
      color: black;
      font-weight: bold;
+     font-size: 3vw;
  }
  
- header a:hover,
- a:active {
+ header a:hover, a:active {
      text-decoration: none;
  }
  
@@ -19,11 +19,91 @@
  
  .navbar-header button.navbar-toggle {
      clear: both;
-     margin-top: -40px;
-     border: 1px solid black;
+     margin-top: -110px;
+     border: 1.5px solid black;
+     background-color: rgb(197, 108, 108);
      color: black;
+     margin-right: 25px;
+    width: 60px;
+    height: 100px;
  }
+ .navbar-header button.navbar-toggle:hover,
+ .navbar-header button.navbar-toggle:active{
+     background-color: yellowgreen;
+ }
+
+ span.icon-bar {
+     color: black;
+     border: 1.9px solid black;
+     position: relative;
+ }
+
+ span:nth-child(2) {
+    position: absolute;
+    bottom: 10px;
+    right: 17px;
+}
+span:nth-child(3) {
+    position: absolute;
+    bottom: 17px;
+    right: 17px;
+}
+
+span:nth-child(4) {
+    position: absolute;
+    bottom: 24px;
+    right: 17px;
+}
+
  
- .icon-bar {}
- 
- #collapsable-nav {}
+ #collapsable-nav {
+     text-align: center;
+ }
+
+ #collapsable-nav a{
+    color: black;
+    font-size: 1.1em;
+ }
+
+ #collapsable-nav span{
+     font-size: 0.8em;
+ }
+ #collapsable-nav li{
+    border-bottom: black solid;
+}
+#collapsable-nav li:nth-child(1){
+    margin-top: -7.5px;
+    border-top: black solid;
+}
+#collapsable-nav li:nth-child(3){
+    margin-bottom: -7.5px;
+}
+
+#our-menu{
+    margin-bottom: 30px;
+}
+
+h3{
+    font-style: italic;
+}
+.order{
+    background-color: rgb(184, 60, 60);
+    color: white;
+    border: 1px solid rgb(156, 26, 26);
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin: 0 25px 15px 25px; */
+    position: relative;
+    border-radius: 15px;
+}
+
+#back{
+    color: black;
+    text-decoration: underline;
+}
+
+#back:hover, #back:active{
+    text-shadow: 1px 1px white;
+}
