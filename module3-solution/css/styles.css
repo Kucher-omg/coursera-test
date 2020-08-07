@@ -1,0 +1,29 @@
+ body {
+     background-color: rgb(224, 198, 164);
+     font-family: 'Raleway', sans-serif;
+ }
+ 
+ header h1 {
+     color: black;
+     font-weight: bold;
+ }
+ 
+ header a:hover,
+ a:active {
+     text-decoration: none;
+ }
+ 
+ #header-nav {
+     border-radius: 0px;
+ }
+ 
+ .navbar-header button.navbar-toggle {
+     clear: both;
+     margin-top: -40px;
+     border: 1px solid black;
+     color: black;
+ }
+ 
+ .icon-bar {}
+ 
+ #collapsable-nav {}
