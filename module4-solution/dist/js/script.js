@@ -118,7 +118,7 @@
 //     console.log("Hello " + names[i]);
 // }
 
-var names2 = ["Vlad", "Vlad2", "Vlad3"];
+// var names2 = ["Vlad", "Vlad2", "Vlad3"];
 
 // var myObj = {
 //     name: "Yaakov",
@@ -140,21 +140,43 @@ var names2 = ["Vlad", "Vlad2", "Vlad3"];
 //     console.log("Hello "+names2[name]);
 // }
 
-function MakeMulti (multiplier){
+// function MakeMulti (multiplier){
 
-    function b(){
-        console.log("Multi is: " + multiplier);
+//     function b(){
+//         console.log("Multi is: " + multiplier);
+//     }
+
+//     b();
+
+//     return(
+//         function(x){
+//             return multiplier * x;
+//         }
+//     );
+// }
+
+// var doubleAll = MakeMulti(2);
+
+// console.log(doubleAll(100));
+
+var list = new Array();
+
+list[0] = "Vlad";
+list[1] = "jordge";
+list[2] = "Jopa";
+list[3] = "Ivan";
+
+
+    var helloOrBye = function (){
+        for(var i = 0; i < list.length; i++){
+            if(list[i][0] == 'j' || list[i][0] == "J"){
+                console.log("Goodbye " + list[i]);
+            }
+            else{
+                console.log("Hello " + list[i]);
+            }
+        }
     }
 
-    b();
+    helloOrBye();
 
-    return(
-        function(x){
-            return multiplier * x;
-        }
-    );
-}
-
-var doubleAll = MakeMulti(2);
-
-console.log(doubleAll(100));
