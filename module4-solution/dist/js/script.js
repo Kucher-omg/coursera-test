@@ -161,10 +161,16 @@
 
 var list = new Array();
 
-list[0] = "Vlad";
-list[1] = "jordge";
-list[2] = "Jopa";
-list[3] = "Ivan";
+list[0] = "Yaakov";
+list[1] = "John";
+list[2] = "Jen";
+list[3] = "Jason";
+list[4] = "Paul";
+list[5] = "Frank";
+list[6] = "Larry";
+list[7] = "Paula";
+list[8] = "Laura";
+list[9] = "Jim";
 
 
     var helloOrBye = function (){
